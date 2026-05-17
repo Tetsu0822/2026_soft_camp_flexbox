@@ -148,3 +148,16 @@ a {
 .col-10 {
     width: calc((100% - 24px * 11) / 12 * 10 + 24px * 9);
 }
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 0px 12px;
+    }
+    .col-2,
+    .col-10 {
+        width: 100%;
+    }
+    .d-flex {
+        flex-direction: column;
+    }
+}
